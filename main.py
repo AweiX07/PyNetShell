@@ -73,7 +73,7 @@ handler=empty
 handleruser=str(os.getlogin())
 handlerhost="localhost"
 handlercwd=os.getcwd()
-key="92043b45887f56d192fa25ba3f292b81ab40af927e42f0cd681847b0b1c9d6c5"
+key='285295070c662930196ceab2791b5a67b5c3bdd4220771e77cad936c6d270d15'#h=hashlib.sha256();h.update(base64.b64encode(b"PNS_DEFAUTL_KEY"))
 
 
 def debug_test():print("test")
