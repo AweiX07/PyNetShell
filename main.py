@@ -180,7 +180,7 @@ while 1:
                 try:exec(text)
                 except Exception as e:print("ML-PyError:\n"+str(e))
                 finally:handlercwd=getcwd()
-            del fetcwd
+            del getcwd
         else:
             handlerfunction(text)
             if pns_retext != None:
